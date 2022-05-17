@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=2]
+
+[sub_resource type="QuadMesh" id=1]
+
+[node name="Main" type="Node"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 294, 298 )
+scale = Vector2( 30, 30 )
+
+[node name="m_1" type="MeshInstance2D" parent="."]
+position = Vector2( 642, 112 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_2" type="MeshInstance2D" parent="."]
+position = Vector2( 773, 112 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_3" type="MeshInstance2D" parent="."]
+position = Vector2( 906, 111 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_4" type="MeshInstance2D" parent="."]
+position = Vector2( 641, 237 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_5" type="MeshInstance2D" parent="."]
+position = Vector2( 775, 238 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_6" type="MeshInstance2D" parent="."]
+position = Vector2( 905, 237 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_7" type="MeshInstance2D" parent="."]
+position = Vector2( 642, 368 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_8" type="MeshInstance2D" parent="."]
+position = Vector2( 776, 370 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
+
+[node name="m_9" type="MeshInstance2D" parent="."]
+position = Vector2( 904, 368 )
+scale = Vector2( 100, 100 )
+mesh = SubResource( 1 )
