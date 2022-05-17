@@ -66,13 +66,13 @@ func _ready():
 		s += String(i)
 		s += ".png"
 		img_array.push_back(load(s))
-	for i in range(48):
-		var s = "res://assets/grass/tile0"
-		if i >= 0 && i <= 9: s += "0"
-		s += String(i)
-		s += ".png"
-		img_array.push_back(load(s))
-		url_array.push_back(s)
+#	for i in range(48):
+#		var s = "res://assets/grass/tile0"
+#		if i >= 0 && i <= 9: s += "0"
+#		s += String(i)
+#		s += ".png"
+#		img_array.push_back(load(s))
+#		url_array.push_back(s)
 	save_1(JSON.print(url_array))
 	do_instance()
 	pass
